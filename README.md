@@ -1,8 +1,15 @@
 # Developer Details Website UI Clone
 This project is a UI clone of the home page of a developer details website created using only pure HTML and CSS.
 
-![Desktop render](./assets/desktop-opti.jpg)
-![Mobile optimized](./assets/mobile-opti.jpg)
+
+
+### Demo video
+https://user-images.githubusercontent.com/63488643/230733843-a7f187db-5b92-44cb-a88f-869d3f6ddbe3.mp4
+
+### Screenshots
+
+![desktop](https://user-images.githubusercontent.com/63488643/230733889-f6190109-23fb-4f44-81b7-77a2c2f723ee.jpeg)
+![mobile](https://user-images.githubusercontent.com/63488643/230733893-ef4feb27-a441-40bb-b7a7-58990059c7d9.jpg)
 
 ## Table of Contents
 
