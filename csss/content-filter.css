@@ -1,0 +1,125 @@
+
+.glass-morphic{
+    align-items: center;
+    padding: 1rem;
+    background-color: var(--primary);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.content-filter > .filter-header{
+ align-items: center;
+    display: flex;
+}
+.content-filter > .filter-header :first-child{
+   margin-right: .7rem;
+   font-size: 1.2rem;
+}
+
+.categories{
+    display: flex;
+    flex-wrap: wrap;
+    margin:  1rem 0rem 0rem 0rem;
+}
+.categories > .category{
+    margin-top: 10px;
+}
+.categories > .category >ul{
+   display: flex;
+   flex-wrap: wrap;
+}
+.content-filter .category {
+    margin: 0.6rem 0rem ;
+}
+.content-filter .category > ul {
+    display: flex;
+}  
+.content-filter .category > ul >li {
+    list-style: none;
+
+}  
+
+
+
+/* utilities */
+.flat-chip{
+    padding: 5px 12px;
+    background-color: var(--primary-vari);
+    margin-right: 6px;
+    margin-top: 10px;
+}
+
+.content-filter > .buttons{
+    margin-top: 10px
+}
+
+
+.outlined-button ,
+.filled-button{
+   margin: 0;
+  background-color: var(--light-green);;
+  border: none;
+  color: white;
+  /* padding: 15px 32px; */
+  padding: 8px 10px;
+  text-align: center;
+  /* font-size: 16px; */
+  cursor: pointer;
+  transition: 300ms; 
+  border-radius: 6px;
+
+}
+.outlined-button{
+    background-color: transparent;
+    color: var(--secondary);
+    border: 1px solid black;
+    margin-left: 8px;
+}
+
+.divider{
+    margin: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.divider > .right >li{
+    list-style: none;
+}
+.divider > .left > select{
+    margin-left: 15px;
+}
+.divider > .left > select{
+    margin-left: 15px;
+    padding:  4px 8px;
+}
+.divider > .right > button{
+    border:1px solid var(--secondary-vari);
+    align-items: center;
+    margin: 0 px 10px;
+    padding:  2px 4px;
+}
+.divider > .right > button:hover{
+    cursor: pointer;
+}
+
+.divider > .right > button:first-child{
+    background-color: var(--secondary);
+    color:var(--primary);
+  
+}
+.divider > .right > button > ion-icon{
+    font-size: 20px;
+}
+.divider > .right:first-child {
+    margin-right: 10px;
+  
+}
+.ml{
+    margin-right: 15px
+}
+
+

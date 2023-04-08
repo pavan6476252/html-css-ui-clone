@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+:root {
+  --secondary: rgba(61, 61, 61, 1);
+  --secpndary-vari: rgba(185, 185, 185, 1);
+  --primary: rgba(255, 255, 255, 1);
+  --primary-vari: rgba(246, 246, 244, 1);
+  --light-green: rgba(1, 222, 80, 1);
+  --light-green-vari: rgba(189, 239, 201, 1);
+}
+button:hover{
+  background-color: var(--light-green);
+}
+body {
+  position: relative;
+  background-color: var(--primary-vari);
+}
+.navbar {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--primary);
+  padding: 0.4rem;
+  position: fixed;
+  top: 2;
+  width: 100%;
+  box-shadow: 3px 3px #dfdddd94, -1em 0 0.4em olive;
+}
+
+.search-bar {
+  max-width: 240px;
+  border: 1px solid rgb(160, 159, 159);
+  background-color: var(--primary-vari);
+  border-radius: 2rem;
+  padding-left: 8px;
+  align-items: center;
+  display: flex;
+  margin-left: 0.6rem;
+}
+.search-bar > .search {
+  font-size: 20px;
+}
+.search-bar > ion-icon {
+  font-size: 22px;
+  color: rgb(67, 226, 154);
+}
+.search-bar input {
+  padding: 0.5rem;
+  border-radius: 2rem;
+  border: 0px;
+  color:var(--secondary);
+  background-color: transparent;
+  
+}
+.search-bar > input:focus {
+  outline: none;
+  /* color: aliceblue; */
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  margin-left: 5px;
+  width: 50%;
+}
+.left > .logo {
+  font-size: 24px;
+  margin: 0 15px;
+  color: var(--light-green);
+}
+
+.right {
+  margin-right: 10px;
+  width: 50%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.right > ul {
+  display: flex;
+}
+
+.book-call {
+  background-color: var(--secondary);
+  width: 150px;
+  color: white;
+  padding: 0.4rem;
+ 
+  border-radius: 5px;
+  display: flex;
+}
+.right > .book-call > ion-icon {
+  margin-right: 10px;
+}
+.right > ul > li {
+  list-style: none;
+  color: var(--secpndary-vari);
+}
+.right > ul > li:hover{
+   color: var(--light-green);
+}
+.right > .profile {
+  background-color: var(--light-green-vari);
+  border-radius: 100%;
+  padding: 0.3rem;
+  text-align: center;
+  align-items: center;
+}
+.right > ul > li,
+.right > .profile {
+  font-size: 1.4rem;
+  margin-right: 10px;
+  margin-left: 15px;
+}

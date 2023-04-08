@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./csss/navbar.css" />
+    <link rel="stylesheet" href="./csss/side-bar.css" />
+    <link rel="stylesheet" href="./csss/content.css" />
+    <link rel="stylesheet" href="./csss/content-filter.css" />
+    <link rel="stylesheet" href="./csss/results.css" />
+    <link rel="stylesheet" href="./csss/responsive.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <title>Task</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
+      :root {
+        --secondary: rgba(61, 61, 61, 1);
+        --secondary-vari: rgba(185, 185, 185, 1);
+        --primary: rgba(255, 255, 255, 1);
+        --primary-vari: rgba(246, 246, 244, 1);
+        --light-green: rgba(1, 222, 80, 1);
+        --light-green-vari: rgba(189, 239, 201, 1);
+      }
+    </style>
+    <script>
+      function myFunction() {
+        var x = document.getElementById("menu");
+        if (x.className === "menu") {
+          x.className += " menu-res";
+        } else {
+          x.className = "menu";
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="left">
+        <ion-icon name="cube" class="logo"></ion-icon>
+        <div class="search-bar">
+          <ion-icon name="search"></ion-icon>
+          <input type="text" name="" placeholder="Search" id="" />
+        </div>
+      </div>
+      <div class="right">
+        <div class="book-call"><ion-icon name="call"></ion-icon> Book Call</div>
+        <ul class="menu" id="menu">
+          <li><ion-icon name="chatbubbles"></ion-icon></li>
+          <li><ion-icon name="book"></ion-icon></li>
+          <li><ion-icon name="notifications-outline"></ion-icon></li>
+        </ul>
+        <a
+          class="profile"
+          href="javascript:void(0);"
+          class="icon"
+          onfocus="myFunction()""
+          >🧑
+        </a>
+      </div>
+    </nav>
+    <!-- nav bar finish -->
+    <section class="side-bar">
+      <ul>
+        <li><ion-icon class="selected" name="mail-unread"></ion-icon></li>
+        <li><ion-icon name="stats"></ion-icon></li>
+        <li><ion-icon name="stats"></ion-icon></li>
+        <li><ion-icon name="bookmark" class="icon"></ion-icon></li>
+        <li><ion-icon name="time"></ion-icon></li>
+      </ul>
+    </section>
+    <div class="content">
+      <section class="content-filter glass-morphic">
+        <div class="filter-header">
+          <ion-icon name="funnel" class="funnel-icon"></ion-icon>
+          <p>Filter Bar</p>
+        </div>
+        <div class="categories">
+          <div class="main-category category">
+            <h4>Main Category:</h4>
+            <ul>
+              <li class="flat-chip">Revenue</li>
+              <li class="flat-chip">Audience</li>
+              <li class="flat-chip">OpEx</li>
+            </ul>
+          </div>
+          <div class="topic category">
+            <h4>Topic:</h4>
+            <ul>
+              <li class="flat-chip">Revenue</li>
+              <li class="flat-chip">Audience</li>
+              <li class="flat-chip">OpEx</li>
+              <li class="flat-chip">Revenue</li>
+              <li class="flat-chip">Audience</li>
+              <li class="flat-chip">OpEx</li>
+              <li class="flat-chip">Revenue</li>
+              <li class="flat-chip">Audience</li>
+              <li class="flat-chip">OpEx</li>
+            </ul>
+          </div>
+          <div class="features category">
+            <h4>Feature:</h4>
+            <ul>
+              <li class="flat-chip">Revenue</li>
+              <li class="flat-chip">Audience</li>
+              <li class="flat-chip">OpEx</li>
+            </ul>
+          </div>
+        </div>
+        <div class="buttons">
+          <button class="filled-button button">Apply All</button>
+          <button class="outlined-button button">Reset</button>
+        </div>
+      </section>
+      <!-- divider/ -->
+      <section class="divider">
+        <div class="left">
+          45 Results
+          <select>
+            <option>10</option>
+            <option>120</option>
+          </select>
+        </div>
+        <div class="right">
+          <button class="ml"><ion-icon name="grid"></ion-icon></button>
+          <button><ion-icon name="list"></ion-icon></button>
+        </div>
+      </section>
+      <!-- cards -->
+      <!-- <section class="results">
+        <div class="card glass-morphic ">
+          sdfa
+        </div>
+        <div class="card glass-morphic ">
+          sdfa
+        </div>
+        <div class="card glass-morphic ">
+          sdfa
+        </div>
+      </section> -->
+      <div class="cards">
+        <article class="card glass-morphic">
+          <header class="mb">
+            <section>
+              <div class="avatar"></div>
+              <div class="list-data">
+                <p>Category</p>
+                <h3>A short heading</h3>
+              </div>
+            </section>
+            <div class="bookmark"><ion-icon name="bookmark" class="icon"></ion-icon>
+            </div>
+          </header>
+
+          <div class="text">
+            <p class="mb">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam
+              magnam quia nobis alias repellendus, aliquam asperiores amet in
+              ipsum nostrum fugit animi libero, quidem praesentium unde hic
+              quibusdam iure qui.
+            </p>
+
+            <h5 class="mb">Dynamically Procrastinate</h5>
+            <div class="skills mb">
+              <ul class="mb">
+                <li class="flat-chip">Programmig</li>
+                <li class="flat-chip">C lamguage</li>
+                <li class="flat-chip">JAva</li>
+                <li class="flat-chip">Android development</li>
+                <li class="flat-chip">Digital marketing</li>
+                <li class="flat-chip">Ui / Ux</li>
+              </ul>
+            </div>
+            <div class="">
+              <button class="outlined-button button">See Full Profile</button>
+              <button class="filled-button button-black button">
+                Quick View
+              </button>
+            </div>
+          </div>
+        </article>
+        <!-- article 2 -->
+        <article class="card glass-morphic">
+          <header class="mb">
+            <section>
+              <div class="avatar"></div>
+              <div class="list-data">
+                <p>Category</p>
+                <h3>A short heading</h3>
+              </div>
+            </section>
+            <div class="bookmark"><ion-icon name="bookmark" class="icon"></ion-icon>
+            </header>
+
+          <div class="text">
+            <p class="mb">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam
+              magnam quia nobis alias repellendus, aliquam asperiores amet in
+              ipsum nostrum fugit animi libero, quidem praesentium unde hic
+              quibusdam iure qui.
+            </p>
+
+            <h5 class="mb">Dynamically Procrastinate</h5>
+            <div class="skills mb">
+              <ul class="mb">
+                <li class="flat-chip">Programmig</li>
+                <li class="flat-chip">C lamguage</li>
+                <li class="flat-chip">JAva</li>
+                <li class="flat-chip">Android development</li>
+                <li class="flat-chip">Digital marketing</li>
+                <li class="flat-chip">Ui / Ux</li>
+              </ul>
+            </div>
+            <div class="">
+              <button class="outlined-button button">See Full Profile</button>
+              <button class="filled-button button-black button">
+                Quick View
+              </button>
+            </div>
+          </div>
+        </article>
+        <!-- article 3 -->
+        <article class="card glass-morphic">
+          <header class="mb">
+            <section>
+              <div class="avatar"></div>
+              <div class="list-data">
+                <p>Category</p>
+                <h3>A short heading</h3>
+              </div>
+            </section>
+            <div class="bookmark"><ion-icon name="bookmark" class="icon"></ion-icon>
+            </header>
+
+          <div class="text">
+            <p class="mb">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam
+              magnam quia nobis alias repellendus, aliquam asperiores amet in
+              ipsum nostrum fugit animi libero, quidem praesentium unde hic
+              quibusdam iure qui.
+            </p>
+
+            <h5 class="mb">Dynamically Procrastinate</h5>
+            <div class="skills mb">
+              <ul class="mb">
+                <li class="flat-chip">Programmig</li>
+                <li class="flat-chip">C lamguage</li>
+                <li class="flat-chip">JAva</li>
+                <li class="flat-chip">Android development</li>
+                <li class="flat-chip">Digital marketing</li>
+                <li class="flat-chip">Ui / Ux</li>
+                <li class="flat-chip">Programmig</li>
+                   <li class="flat-chip">Ui / Ux</li>
+              </ul>
+            </div>
+            <div class="">
+              <button class="outlined-button button">See Full Profile</button>
+              <button class="filled-button button-black button">
+                Quick View
+              </button>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </body>
+</html>

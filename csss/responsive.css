@@ -1,0 +1,64 @@
+@media screen and (min-width: 1150px) {
+  .categories > .topic {
+    margin-left: 20px;
+  }
+}
+@media screen and (max-width: 992px) {
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+  body {
+    background-color: rgb(185, 185, 125);
+  }
+ .right > .menu {
+    display: none;
+  }
+  .search-bar input {
+    max-width: 100px;
+  }
+  /* .right .profile:focus + #menu {
+    
+  } */
+
+
+}
+
+a {
+  text-decoration: none;
+}
+.right > .menu-res {
+    display: flex;
+    position: absolute;
+    top: 52px;
+    flex-direction: column;
+    right: 25px;
+    background-color: var(--primary);
+    padding: 15px 0px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    box-shadow: 2px 3px 3px 1px rgba(0, 0, 255, .2);
+}
+
+h1 , h2 ,h3,h4,h5,h6{
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 1rem;
+}
+p{
+    font-weight: 300;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+.list-data h3{
+    text-transform: uppercase;
+    font-size: 13px;
+}
+.list-data  p{
+    color: var(--light-green);
+    margin-bottom: 3px;
+}
+.bookmark .icon{
+    font-size: 25px;
+}

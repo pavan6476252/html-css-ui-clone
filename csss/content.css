@@ -1,0 +1,8 @@
+.content {
+  z-index: -2;
+  margin: 1rem;
+  left: 58px;
+  top: 60px;
+  width: -webkit-fill-available;
+  position: absolute;
+}
