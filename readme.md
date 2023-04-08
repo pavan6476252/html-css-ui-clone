@@ -1,6 +1,9 @@
 # Developer Details Website UI Clone
 This project is a UI clone of the home page of a developer details website created using only pure HTML and CSS.
 
+![Desktop render](assets/desktop.jpeg)
+![Mobile optimized](assets/mobile.jpg)
+
 ## Table of Contents
 
 ### Installation
@@ -9,12 +12,12 @@ To use or contribute to this project, you can follow these steps:
 > Clone the repository:
 
 ```
-git clone https://github.com/your-username/html-css-ui-clone.git
+git clone https://github.com/pavan6476252/html-css-ui-clone.git
 ```
 > Navigate to the project directory:
 
 ```
-cd developer-details-website-ui-clone
+cd html-css-ui-clone
 ```
 Open the index.html file in your web browser.
 
